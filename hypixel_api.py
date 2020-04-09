@@ -185,6 +185,9 @@ class hypixel():
             "MELON",
             "RED_MUSHROOM",
             "BROWN_MUSHROOM",
+            "INK_SACK:3",
+            "CACTUS",
+            "SUGAR_CANE"
   ]
         self.items = []
         self.itemb = []

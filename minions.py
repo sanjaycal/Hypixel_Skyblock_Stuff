@@ -24,4 +24,13 @@ melon = hapixel.minion(Melon_Numbers, "MELON")
 Mushroom_Numbers = [30,30,28,28,26,26,23,23,20,20,16]*2
 mushroom = hapixel.minion(Mushroom_Numbers, "RED_MUSHROOM", "BROWN_MUSHROOM")
 
+Cocoa_Bean_Numbers = [27,27,25,25,23,23,21,21,18,18,15]*2
+cocoa_bean = hapixel.minion(Cocoa_Bean_Numbers, "INK_SACK:3")
+
+Cactus_Numbers = [27,27,25,25,23,23,21,21,18,18,15]*2
+cactus = hapixel.minion(Cactus_Numbers, "CACTUS")
+
+Sugar_Cane_Numbers = [22,22,20,20,18,18,16,16,14.5,14.5,12]*2
+sugar_cane = hapixel.minion(Sugar_Cane_Numbers, "SUGAR_CANE")
+
 

@@ -1,2 +1,2 @@
 import minions
-print(minions.allMinions.Get_Hourly_Money(7))
+print(minions.sugar_cane.Get_Hourly_Money(7))
