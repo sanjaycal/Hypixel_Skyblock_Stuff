@@ -187,7 +187,8 @@ class hypixel():
             "BROWN_MUSHROOM",
             "INK_SACK:3",
             "CACTUS",
-            "SUGAR_CANE"
+            "SUGAR_CANE",
+            "NETHER_STALK"
   ]
         self.items = []
         self.itemb = []
@@ -221,24 +222,12 @@ class hypixel():
             print(counter)
             counter = counter-1
     def get_sell_price(self,item):
-        #url = "https://api.hypixel.net/skyblock/bazaar/product?key=58526953-7fc6-48dc-83a1-78bcfceefaac&productId="+item
-        #data = requests.get(url).json()
-        #data = data['product_info']
-        #data = data['quick_status']
-        #data = data['sellPrice']
-        #time.sleep(0.5)
         if item == "null" or item == 'a':
             return 0
         else:
             data = self.items[self.iteml.index(item)]
             return data
     def get_buy_price(self,item):
-        #url = "https://api.hypixel.net/skyblock/bazaar/product?key=58526953-7fc6-48dc-83a1-78bcfceefaac&productId="+item
-        #data = requests.get(url).json()
-        #data = data['product_info']
-        #data = data['quick_status']
-        #data = data['buyPrice']
-        #time.sleep(0.5)
         data = self.itemb[self.iteml.index(item)]
         return data
     def find_best_minion(self):
